@@ -1,0 +1,13 @@
+{
+  "name": "f1-2026-game",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Jeu de course F1 3D (navigateur) - Three.js, zéro dépendance npm à installer",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "build": "node tools/build.mjs",
+    "preview": "node tools/serve.mjs dist",
+    "test": "node tests/logic.test.mjs"
+  }
+}
