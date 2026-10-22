@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Grand Prix 2026 — jeu de course 3D</title>
+<link rel="stylesheet" href="src/style.css">
+<!--IMPORTMAP-->
+<script type="importmap">
+{ "imports": { "three": "./vendor/three/three.module.js", "three/addons/": "./vendor/three/addons/" } }
+</script>
+<!--/IMPORTMAP-->
+</head>
+<body>
+<div id="app">
+  <canvas id="gl" tabindex="-1" aria-label="Scène de course 3D"></canvas>
+  <div id="hud" hidden></div>
+  <div id="ui"></div>
+  <noscript>Ce jeu nécessite JavaScript et WebGL.</noscript>
+</div>
+<!--SCRIPT--><script type="module" src="src/main.js"></script><!--/SCRIPT-->
+</body>
+</html>
